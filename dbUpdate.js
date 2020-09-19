@@ -1,3 +1,4 @@
+
     
      let mysql = require('mysql')
 
@@ -49,10 +50,10 @@
           {                    
 
             let con = mysql.createConnection({
-              host: "localhost",
-              user: "root",
-              password: "1551",
-              database: "Mars_Weather_Forecast"
+              host: "",
+              user: "",
+              password: "",
+              database: ""
             })
       
             con.connect(function(err){
